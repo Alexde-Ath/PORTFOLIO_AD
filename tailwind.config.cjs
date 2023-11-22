@@ -1,7 +1,4 @@
-/**
- * From @adrianhajdin, any changes to the code will be noted
- */
-/** @type {import('tailwindcss').Config} */
+/** @type {export('tailwindcss').Config} */
 module.exports = {
     content: ["./src/**/*.{js,jsx}"],
     mode: "jit",
