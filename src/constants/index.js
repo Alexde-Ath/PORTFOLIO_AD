@@ -21,6 +21,7 @@ import {
     tesla,
     shopify,
     threejs,
+    RBC,
   } from "../assets";
   
   export const navLinks = [
@@ -30,7 +31,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "work",
+    },
+    {
+      id: "projects",
+      title: "projects",
     },
     {
       id: "contact",
@@ -114,55 +119,56 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Summer Intern",
+      company_name: "RBC",
+      icon: RBC,
+      iconBg: "#e3dfd3",
+      date: "May 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Skills: Excel, Microsoft office",
+        "Analyze 10ks for 30+ companies, looking into balance sheets, cash flows, and income statements.",
+        "Input and analyze client information for financial and retirement planning.",
+        "Attended and assisted the event coordinator at RBC’s Next-Level conference event at the residence inn.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "University of Michigan: Introduction to Structured Query Language (SQL)",
+      company_name: "Coursera",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Basic syntax, database design with multiple tables, foreign keys, JOIN Operation.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "University of Michigan: Introduction to Structured Query Language (SQL)",
+      company_name: "Coursera",
+      icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Basic syntax, database design with multiple tables, foreign keys, JOIN Operation.",
+      ],
+    },
+    {
+      title: "University of Michigan: Introduction to Structured Query Language (SQL)",
+      company_name: "Coursera",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "July 2023",
+      points: [
+        "Basic syntax, database design with multiple tables, foreign keys, JOIN Operation.",
+      ],
+    },
+    {
+      title: "University of Michigan: Introduction to Structured Query Language (SQL)",
+      company_name: "Coursera",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "July 2023",
+      points: [
+        "Basic syntax, database design with multiple tables, foreign keys, JOIN Operation.",
       ],
     },
   ];

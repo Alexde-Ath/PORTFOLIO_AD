@@ -20,7 +20,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='font-serif mt-4 text-tertiary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a junior computer science major and I enjoy playing the flute, soccer, and eating. I'm a motivated to learn new systems and enjoy a good puzzle. I would love to work in person and willing to travel. Please feel free to contact me for job oppurtunities or just a chat about tasty food! 
+        I am a junior computer science major at University of Rochester and I enjoy playing the flute, soccer, and eating. I'm a motivated to learn new systems and enjoy a good puzzle. I would love to work in person and willing to travel. Please feel free to contact me for job oppurtunities or just a chat about tasty food! 
       </motion.p>
     </>
   );
