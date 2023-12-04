@@ -1,8 +1,11 @@
 import React from 'react'
+import { github, linkedin} from "../assets";
 
 const Tech = () => {
   return (
-    <div>Tech 3d come back to</div>
+    <div
+      className={''}
+    />
   )
 }
 

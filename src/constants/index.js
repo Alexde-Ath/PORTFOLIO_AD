@@ -32,11 +32,11 @@ import {
     },
     {
       id: "work",
-      title: "work",
+      title: "Work",
     },
     {
-      id: "projects",
-      title: "projects",
+      id: "Projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -132,65 +132,9 @@ import {
         "Attended and assisted the event coordinator at RBC’s Next-Level conference event at the residence inn.",
       ],
     },
-    {
-      title: "University of Michigan: Introduction to Structured Query Language (SQL)",
-      company_name: "Coursera",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "July 2023",
-      points: [
-        "Basic syntax, database design with multiple tables, foreign keys, JOIN Operation.",
-      ],
-    },
-    {
-      title: "University of Michigan: Introduction to Structured Query Language (SQL)",
-      company_name: "Coursera",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "July 2021",
-      points: [
-        "Basic syntax, database design with multiple tables, foreign keys, JOIN Operation.",
-      ],
-    },
-    {
-      title: "University of Michigan: Introduction to Structured Query Language (SQL)",
-      company_name: "Coursera",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "July 2023",
-      points: [
-        "Basic syntax, database design with multiple tables, foreign keys, JOIN Operation.",
-      ],
-    },
-    {
-      title: "University of Michigan: Introduction to Structured Query Language (SQL)",
-      company_name: "Coursera",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "July 2023",
-      points: [
-        "Basic syntax, database design with multiple tables, foreign keys, JOIN Operation.",
-      ],
-    },
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
@@ -212,11 +156,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "reactjs",
+          name: "react",
           color: "green-text-gradient",
         },
         {
-          name: "idk",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
