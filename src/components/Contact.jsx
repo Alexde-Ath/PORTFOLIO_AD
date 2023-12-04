@@ -67,9 +67,11 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
-      <motion.div
+      <div
         className='flex-[0.75] bg-primary p-8 rounded-2xl'
       >
+        <img
+        />
         <p className={styles.sectionSubText}>Feel free to get in touch!</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
@@ -119,12 +121,12 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-      </motion.div>
+      </div>
 
-      <motion.div
+      <div
         className='xl:h-auto md:h-[550px] h-[350px]'
       >
-      </motion.div>
+      </div>
       
     </div>
   );

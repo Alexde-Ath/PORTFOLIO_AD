@@ -126,10 +126,9 @@ import {
       iconBg: "#e3dfd3",
       date: "May 2022 - August 2022",
       points: [
-        "Skills: Excel, Microsoft office",
-        "Analyze 10ks for 30+ companies, looking into balance sheets, cash flows, and income statements.",
-        "Input and analyze client information for financial and retirement planning.",
-        "Attended and assisted the event coordinator at RBC’s Next-Level conference event at the residence inn.",
+        "Analyze 10ks for 30+ companies, analyze balance sheets, cash flows, and income statements.",
+        "Input and sort client information for financial and retirement planning.",
+        "Attended and assisted the event coordinator at RBC’s Next-Level conference event.",
       ],
     },
   ];

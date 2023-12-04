@@ -33,9 +33,9 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-[primary] text-[24px] font-serif font-bold'>{experience.title}</h3>
+        <h3 className='text-navy text-[24px] font-serif font-bold'>{experience.title}</h3>
         <p
-          className='text-[secondary] text-[16px] font-serif font-semibold'
+          className='text-gold text-[16px] font-serif font-bold'
           style={{ margin: 0 }}
         >
           {experience.company_name}
@@ -46,7 +46,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='font-serif text-[tertiary] text-[14px] pl-1 tracking-wider'
+            className='font-serif text-tertiary font-semibold text-[14px] pl-1 tracking-wider'
           >
             {point}
           </li>
