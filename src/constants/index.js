@@ -22,6 +22,7 @@ import {
     shopify,
     threejs,
     RBC,
+    proj1,
   } from "../assets";
   
   export const navLinks = [
@@ -49,15 +50,15 @@ import {
       icon: web,
     },
     {
-      title: "example",
+      title: "example2",
       icon: mobile,
     },
     {
-      title: "example",
+      title: "example3",
       icon: backend,
     },
     {
-      title: "example",
+      title: "example4",
       icon: creator,
     },
   ];
@@ -202,25 +203,25 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Web Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Creating a website portfolio to learn web development",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "reactjs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "idk",
           color: "pink-text-gradient",
         },
       ],
-      image: starbucks,
-      source_code_link: "https://github.com/",
+      image: proj1,
+      source_code_link: "https://github.com/Alexde-Ath",
     },
   ];
   

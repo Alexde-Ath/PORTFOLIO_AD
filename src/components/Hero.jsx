@@ -1,6 +1,5 @@
-import { motion } from "framer-motion";
 import { styles } from "../styles";
-// Add above closing div a hero image
+
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
