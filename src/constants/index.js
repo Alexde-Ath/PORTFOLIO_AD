@@ -41,10 +41,10 @@ import {
   const testimonials = [
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Example",
+      name: "John Doe",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "123 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];

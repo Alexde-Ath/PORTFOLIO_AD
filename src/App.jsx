@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'; // get domain
+import { BrowserRouter } from 'react-router-dom';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Projects, StarsCanvas} from './components';
 
 
