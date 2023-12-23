@@ -31,7 +31,7 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_6w37hj9',
+        'service_75vgjk9',
         'template_92rdi2v',
         {
           from_name: form.name,
@@ -57,7 +57,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Today's forecast: You will recieve an error message. Error, Please try again.");
+          alert("Today's forecast: You will recieve an error message...Error, Please try again.");
         }
       );
   };
@@ -72,25 +72,27 @@ const Contact = () => {
         <img
         />
         <p className={styles.sectionSubText}>Feel free to get in touch!</p>
-        <div
-          onClick={() => window.open("https://github.com/Alexde-Ath", "_blank")}
-          className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+        <div style={{ display: 'flex' }}>
+          <div
+            onClick={() => window.open("https://github.com/Alexde-Ath", "_blank")}
+            className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={github}
+                alt='source code'
+                className='w-30 h-30 object-contain'
+              />
+            </div>
+          <div
+            onClick={() => window.open("https://linkedin.com/in/alexandra-de-ath333", "_blank")}
+            className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
           >
             <img
-              src={github}
+              src={linkedin}
               alt='source code'
-              className='w-30 h-30 object-contain'
+              className='w-8 h-8 object-contain'
             />
           </div>
-        <div
-          onClick={() => window.open("https://linkedin.com/in/alexandra-de-ath333", "_blank")}
-          className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-        >
-          <img
-            src={linkedin}
-            alt='source code'
-            className='w-30 h-30 object-contain'
-          />
         </div>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 

@@ -80,7 +80,7 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-tertiary text-[17px] max-w-3xl leading-[30px]'
         >
-          These are my current projects, and I will update as I can. There will be a github link to public projects in the top right corner. 
+          Thanks for checking out my portfolio this far! This public projects section will be updated as soon as possible. 
         </motion.p>
       </div>
 

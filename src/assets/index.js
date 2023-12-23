@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import proj1 from "./proj1.png";
+import UR from "./UR.png";
 
 import RBC from "./company/RBC.png"
 import meta from "./company/meta.png";
@@ -59,4 +60,5 @@ export {
   tesla,
   proj1,
   RBC,
+  UR,
 };

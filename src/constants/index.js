@@ -2,6 +2,7 @@
 import {
     RBC,
     proj1,
+    UR,
   } from "../assets";
   
   export const navLinks = [
@@ -25,6 +26,28 @@ import {
   
   const experiences = [
     {
+      title: "Captain",
+      company_name: "UR Woman's Soccer Club",
+      icon: UR,
+      iconBg: "#e3dfd3",
+      date: "August 2022 - 2023",
+      points: [
+        "Team reached second in Division.",
+        "Requested to return as Captain.",
+      ],
+    },
+    {
+      title: "2nd level leader",
+      company_name: "Medallion Program",
+      icon: UR,
+      iconBg: "#e3dfd3",
+      date: "2022 - Present",
+      points: [
+        "Partook in campus leadership positions.",
+        "Further workshops for learning about leadership.",
+      ],
+    },
+    {
       title: "Summer Intern",
       company_name: "RBC",
       icon: RBC,
@@ -34,6 +57,16 @@ import {
         "Analyze 10ks for 30+ companies, analyze balance sheets, cash flows, and income statements.",
         "Input and sort client information for financial and retirement planning.",
         "Attended and assisted the event coordinator at RBC’s Next-Level conference event.",
+      ],
+    },
+    {
+      title: "Business Manager",
+      company_name: "UR Woman's Soccer Club",
+      icon: UR,
+      iconBg: "#e3dfd3",
+      date: "August 2023 - Present",
+      points: [
+        "Work with UR Finance Office to calculate teams budget and provide financial services to run the club.",
       ],
     },
   ];
