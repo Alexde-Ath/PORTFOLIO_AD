@@ -33,7 +33,6 @@ const Contact = () => {
       .send(
         'service_6w37hj9',
         'template_92rdi2v',
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Alexandra",
@@ -58,7 +57,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Today's forecast: you will recieve an error message. Error, Please try again.");
+          alert("Today's forecast: You will recieve an error message. Error, Please try again.");
         }
       );
   };
@@ -73,6 +72,26 @@ const Contact = () => {
         <img
         />
         <p className={styles.sectionSubText}>Feel free to get in touch!</p>
+        <div
+          onClick={() => window.open("https://github.com/Alexde-Ath", "_blank")}
+          className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+          >
+            <img
+              src={github}
+              alt='source code'
+              className='w-30 h-30 object-contain'
+            />
+          </div>
+        <div
+          onClick={() => window.open("https://linkedin.com/in/alexandra-de-ath333", "_blank")}
+          className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+        >
+          <img
+            src={linkedin}
+            alt='source code'
+            className='w-30 h-30 object-contain'
+          />
+        </div>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
