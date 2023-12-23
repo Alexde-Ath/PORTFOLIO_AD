@@ -78,7 +78,7 @@ const Projects = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-tertiary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 font-serif text-tertiary text-[17px] max-w-3xl leading-[30px]'
         >
           Thanks for checking out my portfolio this far! This public projects section will be updated as soon as possible. 
         </motion.p>

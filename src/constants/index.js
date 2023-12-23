@@ -26,14 +26,15 @@ import {
   
   const experiences = [
     {
-      title: "Captain",
-      company_name: "UR Woman's Soccer Club",
-      icon: UR,
+      title: "Summer Intern",
+      company_name: "RBC",
+      icon: RBC,
       iconBg: "#e3dfd3",
-      date: "August 2022 - 2023",
+      date: "May 2022 - August 2022",
       points: [
-        "Team reached second in Division.",
-        "Requested to return as Captain.",
+        "Analyze 10ks for 30+ companies, analyze balance sheets, cash flows, and income statements.",
+        "Input and sort client information for financial and retirement planning.",
+        "Attended and assisted the event coordinator at RBC’s Next-Level conference event.",
       ],
     },
     {
@@ -48,15 +49,14 @@ import {
       ],
     },
     {
-      title: "Summer Intern",
-      company_name: "RBC",
-      icon: RBC,
+      title: "Captain",
+      company_name: "UR Woman's Soccer Club",
+      icon: UR,
       iconBg: "#e3dfd3",
-      date: "May 2022 - August 2022",
+      date: "August 2022 - 2023",
       points: [
-        "Analyze 10ks for 30+ companies, analyze balance sheets, cash flows, and income statements.",
-        "Input and sort client information for financial and retirement planning.",
-        "Attended and assisted the event coordinator at RBC’s Next-Level conference event.",
+        "Team reached second in Division.",
+        "Requested to return as Captain.",
       ],
     },
     {
