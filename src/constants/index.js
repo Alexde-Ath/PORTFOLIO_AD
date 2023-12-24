@@ -102,7 +102,7 @@ import {
         },
       ],
       image: proj1,
-      source_code_link: "https://github.com/Alexde-Ath",
+      source_code_link: "https://github.com/Alexde-Ath/PORTFOLIO_AD",
     },
   ];
   
