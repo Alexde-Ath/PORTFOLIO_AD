@@ -19,10 +19,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='font-serif mt-4 text-tertiary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a junior studying computer science at University of Rochester and I enjoy playing the flute, soccer, and taste-testing food. I am looking to apply experiences from my academic classes in the real world, some classes I took: Data Structures & Algorithms, Computation & Formal Systems, and Artifical Intelligence. I have varying profiency in these languages: C, Java, Python, and I also seperately learnt how to use R, MATLAB, and SQL. As displayed by this website I have also have some experience HTML, CSS. Reactjs, which I am interested in pursuing further. 
+        I am a junior studying computer science at the University of Rochester, looking forward to translate my academic knowledge into real-world applications. I have completed courses like Data Structures & Algorithms, Computation & Formal Systems, and Artificial Intelligence.
         <span 
         variants={fadeIn("", "", 0.1, 1)}
-        className='font-serif mt-4 text-tertiary text-[17px] max-w-3xl leading-[30px] flex'> I would love to work in person and willing to travel. Please feel free to contact me for job oppurtunities or just a chat about tasty food! </span>
+        className='font-serif mt-4 text-tertiary text-[17px] max-w-3xl leading-[30px] flex'> I have varying levels of proficiency in C, Java, Python, R, MATLAB, and SQL, and successfully applied these languages in various projects and assignments. My experiences extend beyond the classroom, where I have explored HTML, CSS, and Reactjs as shown by this website. 
+        </span>
+        <span 
+        variants={fadeIn("", "", 0.1, 1)}
+        className='font-serif mt-4 text-tertiary text-[17px] max-w-3xl leading-[30px] flex'> 
+        Outside of academics, I enjoy playing the flute, playing soccer, and have a passion for trying new foods. I would love to work in person, but open to hybrid or remote, as well as open to travel. Please feel free to contact by pressing contact at the top right or scrolling to the bottom of this web page!</span>
       </motion.p>
     </>
   );
