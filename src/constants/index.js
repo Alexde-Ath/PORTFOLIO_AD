@@ -86,7 +86,7 @@ import {
     {
       name: "Web Portfolio",
       description:
-        "Creating a website portfolio to learn web development",
+        "Created a website portfolio to learn web development, click on github top right to learn more!",
       tags: [
         {
           name: "html",
