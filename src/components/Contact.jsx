@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { github, linkedin} from "../assets";
+import { github, linkedin, dsleep} from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -57,14 +57,14 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Today's forecast: You will recieve an error message...Error, Please try again.");
+          alert("* (Somewhere, signals deflected by a dog, please try again.)");
         }
       );
   };
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden justify-center`} 
     >
       <div
         className='flex-[0.75] bg-primary p-8 rounded-2xl'
@@ -148,7 +148,10 @@ const Contact = () => {
         className='xl:h-auto md:h-[550px] h-[350px]'
       >
       </div>
-      
+      <img 
+      className = 'absolute inset-x-0 bottom-0'
+      src={dsleep}
+      />
     </div>
   );
 };

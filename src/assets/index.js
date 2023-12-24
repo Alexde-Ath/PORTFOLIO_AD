@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import proj1 from "./proj1.png";
+import plane from "./plane.png";
 import UR from "./UR.png";
 
 import RBC from "./company/RBC.png"
@@ -30,6 +31,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+
+import dcar from "./dcar.gif"
+import dsleep from "./dsleep.gif"
+import dwalk from "./dwalk.gif"
 
 export {
   logo,
@@ -61,4 +66,8 @@ export {
   proj1,
   RBC,
   UR,
+  plane,
+  dcar,
+  dsleep,
+  dwalk,
 };

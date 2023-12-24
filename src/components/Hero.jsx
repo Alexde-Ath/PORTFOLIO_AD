@@ -3,12 +3,12 @@ import { styles } from "../styles";
 
 const Hero = () => {
   const [greetingIndex, setGreetingIndex] = useState(0);
-  const greetings = ['Hello', '你好', 'Hallo', 'Ciao', 'Bonjour', 'こんにちは', 'Dia dhuit', 'Hola', 'Hallå', 'Benvinutu'];
+  const greetings = ['Hello', '你好', 'Hallo', 'Ciao', 'Bonjour', 'こんにちは', 'Dia dhuit', 'Hola', 'Hallå','Benvinutu'];
 
   useEffect(() => {
     const interval = setInterval(() => {
       setGreetingIndex((prevIndex) => (prevIndex + 1) % greetings.length);
-    }, 5000); // Change every 3 seconds
+    }, 3000); // Change every 3 seconds
 
     return () => clearInterval(interval);
   }, []);
