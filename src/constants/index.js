@@ -38,6 +38,26 @@ import {
       ],
     },
     {
+      title: "Team Member",
+      company_name: "UR DandyHacks '24",
+      icon: UR,
+      iconBg: "#e3dfd3",
+      date: "March 2024 - Present",
+      points: [
+        "Going to work with a team to run DandyHacks *Will update description after more information*",
+      ],
+    },
+    {
+      title: "Business Manager",
+      company_name: "UR Woman's Soccer Club",
+      icon: UR,
+      iconBg: "#e3dfd3",
+      date: "August 2023 - Present",
+      points: [
+        "Work with UR Finance Office to calculate teams budget and provide financial services to run the club.",
+      ],
+    },
+    {
       title: "2nd level leader",
       company_name: "Medallion Program",
       icon: UR,
@@ -57,16 +77,6 @@ import {
       points: [
         "Team reached second in Division.",
         "Requested to return as Captain.",
-      ],
-    },
-    {
-      title: "Business Manager",
-      company_name: "UR Woman's Soccer Club",
-      icon: UR,
-      iconBg: "#e3dfd3",
-      date: "August 2023 - Present",
-      points: [
-        "Work with UR Finance Office to calculate teams budget and provide financial services to run the club.",
       ],
     },
   ];
