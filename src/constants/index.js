@@ -48,13 +48,14 @@ import {
       ],
     },
     {
-      title: "Business Manager",
+      title: "Business Manager/Social Chair",
       company_name: "UR Woman's Soccer Club",
       icon: UR,
       iconBg: "#e3dfd3",
       date: "August 2023 - Present",
       points: [
         "Work with UR Finance Office to calculate teams budget and provide financial services to run the club.",
+        "Plan and execute social events for the team.",
       ],
     },
     {

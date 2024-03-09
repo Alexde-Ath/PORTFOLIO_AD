@@ -25,6 +25,8 @@ import threejs from "./tech/threejs.svg";
 import proj1 from "./proj1.png";
 import plane from "./plane.png";
 import UR from "./UR.png";
+import portrait from "./Portrait.png";
+import painting from "./Painting.png";
 
 import RBC from "./company/RBC.png"
 import meta from "./company/meta.png";
@@ -70,4 +72,6 @@ export {
   dcar,
   dsleep,
   dwalk,
+  portrait,
+  painting,
 };
