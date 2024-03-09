@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { dwalk} from "../assets";
-
 
 const About = () => {
   return (
@@ -29,6 +27,16 @@ const About = () => {
         className='font-serif mt-4 text-tertiary text-[17px] max-w-3xl leading-[30px] flex'> 
         Outside of academics, I enjoy playing the flute, playing soccer, and have a passion for trying new foods. I would love to work in person, but open to hybrid or remote, as well as open to travel. Please feel free to contact by pressing contact at the top right or scrolling to the bottom of this web page!</span>
       </motion.p>
+      <motion.div
+        whileHover={{ scale: 1.1 }}
+        className="relative w-20 h-20 rounded-full overflow-hidden shadow-md mt-4"
+      >
+        <img
+          src="profile.png" 
+          alt="Profile"
+          className="w-full h-full object-cover"
+        />
+      </motion.div>
     </>
   );
 };

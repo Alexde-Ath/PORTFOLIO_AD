@@ -34,7 +34,7 @@ import tesla from "./company/tesla.png";
 
 import dcar from "./dcar.gif"
 import dsleep from "./dsleep.gif"
-import dwalk from "./dwalk.gif"
+import dwalk from "./Dwalk.gif"
 
 export {
   logo,
