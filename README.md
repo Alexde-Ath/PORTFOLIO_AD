@@ -1,17 +1,18 @@
 # Website Portfolio 
 
-This was created for myself to display a portfolio of my resume, as well as to explore HTML and CSS. There are running instructions below, however, I also have a link to the site in the Demo section.
+This was created for myself to display a portfolio of my resume, as well as to explore HTML and CSS. There are running instructions below, however, I also have a link to the site in the section below.
 
-## Demo
+## Website
 (Link to site via HOSTINGER)
-alexandradeathportfoliowebsite.com
+https://alexandradeathportfoliowebsite.com
 
 ## Technology Used
 - EmailJS
-- ThreeJS 
-- React Three Fiber
 - TailwindCSS
 - Framer Motion 
+
+The website is built using React and Vite, providing a fast and efficient development experience with Hot Module Replacement (HMR) and ESLint rules. TailwindCSS is used for styling for a responsive and modern design. Framer Motion is used for animations, adding to the interactivity of the website. EmailJS is used for handling email services, ensuring smooth communication with visitors.
+
 ### React + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 Currently, two official plugins are available:
@@ -25,17 +26,6 @@ Currently, two official plugins are available:
 - Projects showcase
 - Contact form
 - Links to social media or GitHub profiles
-
-## Getting started
-Running repository
-#### Clone the repository
-git clone https://github.com/Alexde-Ath/PORTFOLIO_AD
-#### Navigate to the project directory
-cd PORTFOLIO_AD
-#### Install dependencies
-npm install
-#### Start the development server
-npm run dev
 
 ## License
 This project is licensed under the MIT License - Free to use and modify, however, please remove personal information and replace with your own. 
