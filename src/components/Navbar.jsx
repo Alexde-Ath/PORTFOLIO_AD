@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-tertiary text-[18px] font-serif cursor-pointer flex '>
             Alexandra &nbsp;
-            <span className='sm:block hidden font-serif'> | de'Ath </span>
+            <span className='sm:block hidden font-serif'> | UR'25 </span>
             <img/>
           </p>
         </Link>
