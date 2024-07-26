@@ -79,7 +79,7 @@ const Contact = () => {
             >
               <img
                 src={github}
-                alt='source code'
+                alt="Alexandra de'Ath source code"
                 className='w-30 h-30 object-contain'
               />
             </div>
@@ -89,7 +89,7 @@ const Contact = () => {
           >
             <img
               src={linkedin}
-              alt='source code'
+              alt="Alexandra de\'Ath source code"
               className='w-8 h-8 object-contain'
             />
           </div>
@@ -151,6 +151,7 @@ const Contact = () => {
       <img 
       className = 'absolute inset-x-0 bottom-0'
       src={dsleep}
+      alt = "Alexandra de'Ath"
       />
     </div>
   );

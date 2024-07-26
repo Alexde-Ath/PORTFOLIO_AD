@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt = "Alexandra de'Ath" className='w-9 h-9 object-contain' />
           <p className='text-tertiary text-[18px] font-serif cursor-pointer flex '>
             Alexandra &nbsp;
             <span className='sm:block hidden font-serif'> | UR'25 </span>
@@ -67,7 +67,7 @@ const Navbar = () => {
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
-            alt='menu'
+            alt="Alexandra de'Ath"
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
           />

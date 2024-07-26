@@ -43,7 +43,7 @@ const About = () => {
       >
         <img
           src={isFlipped ? painting : portrait}
-          alt="profile picture"
+          alt="Alexandra de'Ath"
           className="w-full h-full object-cover"
         />
       </motion.div>
