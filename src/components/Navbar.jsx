@@ -10,6 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  // React hook to handke handle scroll event when clicked, move to top of screen
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -23,14 +24,17 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, []); // [] only run on mount and unmount (not updates)
 
   return (
+    /**
+     * Navbar component
+     */
     <nav
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? "bg-primary bg-opacity-20 backdrop-filter backdrop-blur" : "backdrop-filter backdrop-blur"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -49,14 +53,14 @@ const Navbar = () => {
             <img/>
           </p>
         </Link>
-
+        
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-tertiary" : "text-secondary"
-              } hover:text-tertiary text-[20px] cursor-pointer`}
+                active === nav.title ? "text-secondary" : "text-tertiary"
+              } hover:text-secondary text-[20px] cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>

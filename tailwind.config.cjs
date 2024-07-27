@@ -18,6 +18,10 @@ module.exports = {
         screens: {
           xs: "450px",
         },
+        backdropFilter: {
+          "none": "none",
+          "blur": "blur(10px)",
+        },
       },
     },
     plugins: [],
