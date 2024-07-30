@@ -27,9 +27,6 @@ const Navbar = () => {
   }, []); // [] only run on mount and unmount (not updates)
 
   return (
-    /**
-     * Navbar component 
-     */
     <nav
       className={`${
         styles.paddingX
@@ -38,6 +35,7 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+        {/*Logo & Name Link */}
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -54,6 +52,7 @@ const Navbar = () => {
           </p>
         </Link>
         
+        {/* Navigation for larger screens */}
         <ul className='list-none hidden md:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
@@ -68,6 +67,7 @@ const Navbar = () => {
           ))}
         </ul>
 
+        {/* Navigation for smaller screens */}
         <div className='md:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
@@ -76,6 +76,7 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
+          {/* Dropdowm menu for smaller screens */}
           <div
             className={`${
               !toggle ? "hidden" : "flex"
