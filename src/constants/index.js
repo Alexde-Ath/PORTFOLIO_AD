@@ -5,25 +5,6 @@ import {
     UR,
   } from "../assets";
   
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "Projects",
-      title: "Projects",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
   const experiences = [
     {
       title: "Summer Intern",
