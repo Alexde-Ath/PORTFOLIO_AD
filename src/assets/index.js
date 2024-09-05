@@ -24,19 +24,19 @@ import threejs from "./tech/threejs.svg";
 
 import proj1 from "./proj1.png";
 import Aboutfolder from "./Aboutfolder.png";
+import Aboutopen from "./Aboutfolderopen.png";
 import UR from "./UR.png";
-import portrait from "./Portrait.png";
 import painting from "./Painting.png";
 
-import RBC from "./company/RBC.png"
+import RBC from "./company/RBC.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import dcar from "./dcar.gif"
-import dsleep from "./dsleep.gif"
-import dwalk from "./Dwalk.gif"
+import dcar from "./dcar.gif";
+import dsleep from "./dsleep.gif";
+import dwalk from "./Dwalk.gif";
 
 export {
   logo,
@@ -69,9 +69,9 @@ export {
   RBC,
   UR,
   Aboutfolder,
+  Aboutopen,
   dcar,
   dsleep,
   dwalk,
-  portrait,
   painting,
 };
