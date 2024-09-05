@@ -6,24 +6,24 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full flex items-center py-5 fixed top-0 z-20`}
+      className={`w-full flex items-center px-1 py-1 fixed top-0 bg-dpink bg-opacity-5 backdrop-filter backdrop-blur fixed`}
     >
-        <div className='flex flex-1 justify-end items-center'>
-          <img
-            src={toggle ? close : menu}
-            alt="Alexandra de'Ath"
-            className='w-[28px] h-[28px] object-contain'
-            onClick={() => setToggle(!toggle)}
-          />
-
-          {/* Dropdowm menu for smaller screens */}
-          <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 bg-primary bg-opacity-30 backdrop-filter backdrop-blur absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+      <div className='flex flex-1 justify-start items-center'>
+        <img
+          src={toggle ? close : menu}
+          alt="Alexandra de'Ath"
+          className='w-[28px] h-[28px] object-contain'
+          onClick={() => setToggle(!toggle)}
+        />
+        {/* Dropdowm menu */}
+        <div
+          className={`${
+            !toggle ? "hidden" : "flex"
+          } bg-primary bg-opacity-30 backdrop-filter backdrop-blur absolute`}
           >
-          </div>
+        </div>
       </div>
+      {/* Widget symbols - idk */}
     </nav>
   );
 };

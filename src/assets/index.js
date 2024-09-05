@@ -23,7 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import proj1 from "./proj1.png";
-import plane from "./plane.png";
+import Aboutfolder from "./Aboutfolder.png";
 import UR from "./UR.png";
 import portrait from "./Portrait.png";
 import painting from "./Painting.png";
@@ -68,7 +68,7 @@ export {
   proj1,
   RBC,
   UR,
-  plane,
+  Aboutfolder,
   dcar,
   dsleep,
   dwalk,
