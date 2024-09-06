@@ -26,33 +26,51 @@ body {
  * Hero - Folders
  *--------------*/
 
- .Aboutfolder {
+ .aboutfolder {
   height: 150px;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-left: 10px;
  }
  
- .Aboutfolder:not(.clicked):hover {
+ .aboutfolder:not(.clicked):hover {
   content: url('../src/assets/Aboutfolderopen.png');
  }
 
- .AboutPopup {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+ .aboutPopup {
+  position: absolute;
+  width: 800px;
+  height: 700px;
+  top: 100px;
+  left: 400px;
 }
 
-.AboutInfo {
-  background: white;
-  padding: 20px;
-  border-radius: 5px;
-  width: 80%;
-  max-width: 500px;
+.about-Window {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
 }
+
+/*---------------
+ * About - window
+ *---------------*/
+ 
+ .mcomp {
+  position: relative;
+  height: 80px;
+  top: 40px;
+  left: 30px;
+ }
+
+ .close-smile {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  height: 30px;
+ }
+
+ .sidebar-1 {
+  position: relative;
+  font-size: 25px;
+  top: 20px;
+  left: 15px;
+ }

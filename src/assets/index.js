@@ -27,6 +27,8 @@ import Aboutfolder from "./Aboutfolder.png";
 import Aboutopen from "./Aboutfolderopen.png";
 import UR from "./UR.png";
 import painting from "./Painting.png";
+import mcomp from "./Mcompute.png";
+import closeButton from "./closeButton.png";
 
 import RBC from "./company/RBC.png";
 import meta from "./company/meta.png";
@@ -74,4 +76,6 @@ export {
   dsleep,
   dwalk,
   painting,
+  mcomp,
+  closeButton,
 };
