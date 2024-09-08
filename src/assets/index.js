@@ -23,15 +23,16 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import proj1 from "./proj1.png";
-import Aboutfolder from "./Aboutfolder.png";
-import Aboutopen from "./Aboutfolderopen.png";
+import aboutfolder from "./Aboutfolder.png";
+import aboutopen from "./Aboutfolderopen.png";
 import UR from "./UR.png";
 import painting from "./Painting.png";
 import mcomp from "./Mcompute.png";
 import closeButton from "./closeButton.png";
-import AboutNight from "./AboutfolderNight.png";
-import AboutopenNight from "./Aboutfolderopennight.png";
-
+import aboutNight from "./AboutfolderNight.png";
+import aboutopenNight from "./Aboutfolderopennight.png";
+import workfolder from "./WorkFolder";
+import workfolderNight from "./WorkfolderNight";
 
 import RBC from "./company/RBC.png";
 import meta from "./company/meta.png";
@@ -73,13 +74,14 @@ export {
   proj1,
   RBC,
   UR,
-  Aboutfolder,
-  Aboutopen,
+  aboutfolder,
+  aboutopen,
   dcar,
   dsleep,
   dwalk,
   painting,
   mcomp,
   closeButton,
-  AboutNight,
+  aboutNight,
+  aboutopenNight,
 };
