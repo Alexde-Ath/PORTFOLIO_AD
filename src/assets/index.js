@@ -29,6 +29,9 @@ import UR from "./UR.png";
 import painting from "./Painting.png";
 import mcomp from "./Mcompute.png";
 import closeButton from "./closeButton.png";
+import AboutNight from "./AboutfolderNight.png";
+import AboutopenNight from "./Aboutfolderopennight.png";
+
 
 import RBC from "./company/RBC.png";
 import meta from "./company/meta.png";
@@ -78,4 +81,5 @@ export {
   painting,
   mcomp,
   closeButton,
+  AboutNight,
 };

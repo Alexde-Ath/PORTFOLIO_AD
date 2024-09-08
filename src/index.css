@@ -19,7 +19,7 @@
 /*TODO: FIX: MArgin of white space when screen horizontal small */
 
 body {
-  background-image: url('/background.jpg');
+  background-image: url('/background.png');
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
