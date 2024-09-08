@@ -31,8 +31,10 @@ import mcomp from "./Mcompute.png";
 import closeButton from "./closeButton.png";
 import aboutNight from "./AboutfolderNight.png";
 import aboutopenNight from "./Aboutfolderopennight.png";
-import workfolder from "./WorkFolder";
-import workfolderNight from "./WorkfolderNight";
+import workfolder from "./Workfolder";
+import workNight from "./WorkfolderNight";
+import workopen from "./Workfolderopen";
+import workopenNight from "./WorkfolderopenNight";
 
 import RBC from "./company/RBC.png";
 import meta from "./company/meta.png";
@@ -84,4 +86,8 @@ export {
   closeButton,
   aboutNight,
   aboutopenNight,
+  workfolder,
+  workNight,
+  workopen,
+  workopenNight,
 };
