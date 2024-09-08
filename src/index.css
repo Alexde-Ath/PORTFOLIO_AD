@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Gemola";
+  src: url("/gemola-font/Gemola-wooyn.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: serif;
+  font-family: 'Gemola', fallback, sans-serif;
   scroll-behavior: smooth;
   color-scheme: #f0eee9;
 }
