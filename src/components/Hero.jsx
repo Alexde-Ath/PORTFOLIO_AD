@@ -1,5 +1,6 @@
 import { Aboutfolder, Aboutopen, mcomp, closeButton } from '../assets';
 import React, { useState, useEffect, useRef } from 'react';
+import SidebarData from './SidebarData';
 
 /* Drag screen function based from https://www.w3schools.com/HOWTO/howto_js_draggable.asp
 * create dependency array to useEffect hook to run when showPopup state changes
@@ -7,7 +8,7 @@ import React, { useState, useEffect, useRef } from 'react';
 function useDrag(showPopup, setIsGrab) {
   const elmntRef = useRef(null);
   const pos = useRef({ top: 100, left: 400, x: 0, y: 0 });
-// TODO: limit drag to screen size
+
   useEffect(() => {
     const elmnt = elmntRef.current;
     if (!elmnt) return;
@@ -25,12 +26,26 @@ function useDrag(showPopup, setIsGrab) {
     };
 
     const mouseMoveHandler = (e) => {
-      //Handle how far mouse moved from pos.current
+      // Handle how far mouse moved from pos.current
       const distancex = e.clientX - pos.current.x;
       const distancey = e.clientY - pos.current.y;
+      // New position
+      const newLeft = pos.current.left + distancex;
+      const newTop = pos.current.top + distancey;
+      // Element dimensions
+      const elmntWidth = elmnt.offsetWidth;
+      const elmntHeight = elmnt.offsetHeight;
+      // Window dimensions
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
 
-      elmnt.style.left = `${pos.current.left + distancex}px`;
-      elmnt.style.top = `${pos.current.top + distancey}px`;
+      //check if new position is within window boundaries
+      if (newLeft >=0 && newLeft + elmntWidth <= windowWidth) {
+        elmnt.style.left = `${newLeft}px`;
+      }
+      if (newTop >= 0 && newTop + elmntHeight <= windowHeight) {
+        elmnt.style.top = `${newTop}px`;
+      }
     };
 
     const mouseUpHandler = () => {
@@ -59,6 +74,7 @@ const Hero = () => {
   const [showPopup, setPopup] = useState(false);
   const [isGrab, setIsGrab] = useState(false);
   const elmntRef = useDrag(showPopup, setIsGrab);
+  const [content, setContent] = useState('');
 
   const handleClick = () => {
     setPopup(!showPopup);
@@ -89,8 +105,22 @@ const Hero = () => {
                 className = "close-smile"/>
               </button>
               <p className = "sidebar-1">
-                Hello
+                Hello :)
               </p>
+              <div className = "sidebar-2">
+                <ul>
+                  {SidebarData.map((button, index) => (
+                    <li key = {index}>
+                      <button onClick = {() => setContent(button.content)}>
+                        {button.label}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className = "sidbar-3">
+                {content}
+              </div>
             </div>
             <div className = "aboutInfo">
               <img 

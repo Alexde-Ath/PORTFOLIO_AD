@@ -14,7 +14,7 @@
 /*TODO: FIX: MArgin of white space when screen horizontal small */
 
 body {
-  background-image: url('/background.png');
+  background-image: url('/background.jpg');
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body {
  .aboutPopup {
   position: absolute;
   width: 800px;
-  height: 700px;
+  height: 500px;
   top: 100px;
   left: 400px;
 }
@@ -54,11 +54,32 @@ body {
  * About - window
  *---------------*/
  
+ .about-Sidebar {
+  position: relative;
+  height: 500px;
+ }
+
+ .about-Sidebar::after, .about-Sidebar::before{
+  content: "";
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  border-right: 2px outset #30242878;
+ }
+
+ .about-Sidebar::after {
+  left: 20%;
+ }
+
+ .about-Sidebar::before {
+  left: 40%;
+ }
+
  .mcomp {
   position: relative;
-  height: 80px;
-  top: 40px;
-  left: 30px;
+  height: 70px;
+  bottom: 400px;
+  left: 400px;
  }
 
  .close-smile {
@@ -73,4 +94,11 @@ body {
   font-size: 25px;
   top: 20px;
   left: 15px;
+ }
+
+ .sidebar-2 {
+  position: relative;
+  left: 180px;
+  top: -40px;
+  font-size: 25px;
  }
