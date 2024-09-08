@@ -30,11 +30,11 @@ import painting from "./Painting.png";
 import mcomp from "./Mcompute.png";
 import closeButton from "./closeButton.png";
 import aboutNight from "./AboutfolderNight.png";
-import aboutopenNight from "./Aboutfolderopennight.png";
-import workfolder from "./Workfolder";
-import workNight from "./WorkfolderNight";
-import workopen from "./Workfolderopen";
-import workopenNight from "./WorkfolderopenNight";
+import aboutopenNight from "./AboutfolderopenNight.png";
+import workfolder from "./Workfolder.png";
+import workNight from "./WorkNight.png";
+import workopen from "./Workfolderopen.png";
+import workopenNight from "./WorkfolderopenNight.png";
 
 import RBC from "./company/RBC.png";
 import meta from "./company/meta.png";
