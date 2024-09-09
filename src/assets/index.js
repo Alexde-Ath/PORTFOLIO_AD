@@ -91,5 +91,5 @@ export {
   workNight,
   workopen,
   workopenNight,
-  photo,
+  Portrait,
 };
