@@ -66,7 +66,7 @@ function useDrag(showPopup, setIsGrab) {
 }
 
 // Variable Popup has two sidebars in a column and third column shows content
-const Popup = ({ showPopup, onClose, SidebarData, children }) => {
+const Popup = ({ showPopup, onClose, SidebarData }) => {
     const [selectedButton, setSelectedButton] = useState(null);
     const [isGrab, setIsGrab] = useState(false);
     const elmntRef = useDrag(showPopup, setIsGrab);
@@ -106,7 +106,6 @@ const Popup = ({ showPopup, onClose, SidebarData, children }) => {
                         </ul>
                     </div>
                 <div className="sidebar-3">{content}</div>
-                {children} {/*Render any child elements passed*/}
             </div>
         </div>
     </div>

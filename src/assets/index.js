@@ -35,6 +35,7 @@ import workfolder from "./Workfolder.png";
 import workNight from "./Worknight.png";
 import workopen from "./Workfolderopen.png";
 import workopenNight from "./WorkfolderopenNight.png";
+import Portrait from "./Photo.jpeg";
 
 import RBC from "./company/RBC.png";
 import meta from "./company/meta.png";
@@ -90,4 +91,5 @@ export {
   workNight,
   workopen,
   workopenNight,
+  photo,
 };
