@@ -1,6 +1,6 @@
 import { aboutfolder, aboutopen, workfolder, workopen } from '../assets';
 import React, { useState } from 'react';
-import SidebarData, Sidebar2 from './SidebarData';
+import { SidebarData, SidebarData2 } from './SidebarData.jsx';
 import Popup from './Popup';
 
 /**
@@ -54,12 +54,12 @@ const Hero = () => {
         </button>
         <Popup
           showPopup={showPopup2}
-          content={Sidebar2.content}
+          content={SidebarData2.content}
           onClose={() => {
             setPopup2(false);
             setIsClicked2(false);
           }}
-          SidebarData={Sidebar2}
+          SidebarData={SidebarData2}
         />
       </div>
     </section>

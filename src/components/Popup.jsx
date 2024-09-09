@@ -7,7 +7,7 @@ import React, { useState, useEffect, useRef } from 'react';
 function useDrag(showPopup, setIsGrab) {
     const elmntRef = useRef(null);
     const pos = useRef({ top: 100, left: 400, x: 0, y: 0 });
-  
+
     useEffect(() => {
         const elmnt = elmntRef.current;
         if (!elmnt) return;
@@ -25,6 +25,7 @@ function useDrag(showPopup, setIsGrab) {
         };
   
         const mouseMoveHandler = (e) => {
+            
             // Handle how far mouse moved from pos.current
             const distancex = e.clientX - pos.current.x;
             const distancey = e.clientY - pos.current.y;
@@ -63,17 +64,23 @@ function useDrag(showPopup, setIsGrab) {
     }, [showPopup]);
     return elmntRef;
 }
-  
+
 // Variable Popup has two sidebars in a column and third column shows content
-const Popup = ({ showPopup, content: initContent, onClose, SidebarData, children }) => {
+const Popup = ({ showPopup, onClose, SidebarData, children }) => {
     const [selectedButton, setSelectedButton] = useState(null);
     const [isGrab, setIsGrab] = useState(false);
     const elmntRef = useDrag(showPopup, setIsGrab);
-    const [content, setContent] = useState(initContent);
+    const [content, setContent] = useState(SidebarData[0].content); //Set initial
+    const [zIndex, setIndex] = useState(0);
+
+    // handler for click for popup windows - TODO:Change to if pressed
+    const handleClick = () => {
+        setIndex(zIndex + 1);
+    };
   
     return showPopup ? (
         // If grab popup window turn cursor to grabbing and move popup with useDrag
-        <div className={`${isGrab ? 'cursor-grabbing' : 'cursor-grab'} aboutPopup`} ref={elmntRef}>
+        <div className={`${isGrab ? 'cursor-grabbing' : 'cursor-grab'} aboutPopup`} ref={elmntRef} style={{zIndex}} onClick={handleClick}>
             <div className="about-Window bg-white bg-opacity-30 backdrop-filter backdrop-blur">
                 <div className="about-Sidebar">
                     <button className="close-Button" onClick={onClose}>

@@ -25,11 +25,31 @@ const SidebarData = [
     },
 ];
 
-const Sidebar2 = [
+const SidebarData2 = [
     {
-        label: "hihi",
-        content: "lul "
+        label: "hi",
+        content: "hi"
+    },
+    {
+        label: "Courses",
+        content: "content"
+    },
+    {
+        label: "Languages",
+        content: "content"
+    },
+    {
+        label: "Skills",
+        content: "content"
+    },
+    {
+        label: "Leadership",
+        content: "content"
+    },
+    {
+        label: "Certifications",
+        content: "content"
     },
 ];
 
-export default SidebarData, Sidebar2;
+export { SidebarData, SidebarData2 };

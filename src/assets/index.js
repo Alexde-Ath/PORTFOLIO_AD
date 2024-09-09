@@ -32,7 +32,7 @@ import closeButton from "./closeButton.png";
 import aboutNight from "./AboutfolderNight.png";
 import aboutopenNight from "./AboutfolderopenNight.png";
 import workfolder from "./Workfolder.png";
-import workNight from "./WorkNight.png";
+import workNight from "./Worknight.png";
 import workopen from "./Workfolderopen.png";
 import workopenNight from "./WorkfolderopenNight.png";
 

@@ -16,8 +16,6 @@
   color-scheme: #f0eee9;
 }
 
-/*TODO: FIX: MArgin of white space when screen horizontal small */
-
 body {
   background-image: url('/background.png');
   background-position: center;
@@ -25,6 +23,10 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  -webkit-user-select: none;  /* Chrome, Safari, Opera */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* IE/Edge */
+  user-select: none;          /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 /*--------------
  * Hero - Folders
