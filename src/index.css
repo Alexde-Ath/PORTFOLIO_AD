@@ -22,7 +22,6 @@ body {
   background-image: url('/background.png');
   background-position: center;
   background-size: 100% 100%;
-  background-repeat: no-repeat;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -31,14 +30,28 @@ body {
  * Hero - Folders
  *--------------*/
 
+ .aboutbutton, .workbutton {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 10px;
+ }
+
  .aboutfolder {
   height: 150px;
-  margin-top: 60px;
-  margin-left: 10px;
+  margin-top: 20px;
  }
  
  .aboutfolder:not(.clicked):hover {
   content: url('../src/assets/Aboutfolderopen.png');
+ }
+
+ .workfolder {
+  height: 150px;
+ }
+
+ .workfolder:not(.clicked):hover {
+  content: url('../src/assets/Workfolderopen.png');
  }
 
  .aboutPopup {
@@ -53,6 +66,7 @@ body {
   width: 800px;
   height: 500px;
   border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.561);
 }
 
 /*---------------
@@ -83,7 +97,7 @@ body {
  .mcomp {
   position: relative;
   height: 70px;
-  bottom: 400px;
+  bottom: 450px;
   left: 400px;
  }
 
@@ -97,13 +111,21 @@ body {
  .sidebar-1 {
   position: relative;
   font-size: 25px;
-  top: 20px;
+  top: -210px;
   left: 15px;
  }
 
  .sidebar-2 {
   position: relative;
   left: 180px;
-  top: -40px;
+  top: -30px;
   font-size: 25px;
+  width: 130px;
+ }
+
+ .sidebar-3 {
+  position: relative;
+  left: 400px;
+  top: -250px;
+  width: 300px
  }
