@@ -1,14 +1,23 @@
-import { Portrait, github, linkedin } from '../assets';
+import { Portrait, github, linkedin, URLogo } from '../assets';
 
 const SidebarData = [
     {
         label: "About",
         content: (
-        <div className = "mt-0" style = {{ fontSize: '20px' }}>
+        <div style = {{ fontSize: '20px' }}>
+            <div className = "about-cover"></div>
+            <img src = {URLogo} className = "UR-logo" alt = "Alexandra de'Ath" />
             <img src = {Portrait} className = "about-portrait" alt = "Alexandra de'Ath" />
+            <a href="https://github.com/Alexde-Ath" target="_blank" rel="noopener noreferrer">
+                <img src = {github} className = "about-github" alt = "Alexandra de'Ath" />
+            </a>
+            <a href="https://linkedin.com/in/alexandra-de-ath333" target="_blank" rel="noopener noreferrer">
+                <img src = {linkedin} className = "about-linkedin" alt = "Alexandra de'Ath" /> 
+            </a>
             <p style = {{fontSize: '25px'}}>I am a senior studying a <strong>B.S in Computer Science</strong> at the <strong>University of Rochester</strong>.</p> 
-            <p>Outside of academics, I enjoy playing the flute, soccer, drawing, and have a passion for trying new foods!</p> 
-            <p style = {{color: 'Navy'}}> **NOTE: If you prefer seeing a list of all tabs, click the burger at the top left :)"</p>
+            <p style = {{marginBottom: '30px', marginTop: '10px' }}>Outside of academics, I enjoy playing the flute, soccer, drawing, and have a passion for trying new foods!</p>
+            <p style = {{color: 'Navy'}}> **NOTE: Click the burger at the top left for quick view :)</p>
+
         </div>
     )
     },

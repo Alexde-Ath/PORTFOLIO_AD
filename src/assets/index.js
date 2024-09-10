@@ -25,7 +25,7 @@ import threejs from "./tech/threejs.svg";
 import proj1 from "./proj1.png";
 import aboutfolder from "./Aboutfolder.png";
 import aboutopen from "./Aboutfolderopen.png";
-import UR from "./UR.png";
+import URLogo from "./UR.png";
 import painting from "./Painting.png";
 import mcomp from "./Mcompute.png";
 import closeButton from "./closeButton.png";
@@ -76,7 +76,7 @@ export {
   tesla,
   proj1,
   RBC,
-  UR,
+  URLogo,
   aboutfolder,
   aboutopen,
   dcar,

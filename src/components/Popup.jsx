@@ -66,7 +66,7 @@ function useDrag(showPopup, setIsGrab) {
 }
 
 // Variable Popup has two sidebars in a column and third column shows content
-const Popup = ({ showPopup, onClose, SidebarData }) => {
+const Popup = ({ showPopup, onClose, SidebarData, children }) => {
     const [selectedButton, setSelectedButton] = useState(0);
     const [isGrab, setIsGrab] = useState(false);
     const elmntRef = useDrag(showPopup, setIsGrab);
@@ -77,11 +77,15 @@ const Popup = ({ showPopup, onClose, SidebarData }) => {
     const handleClick = () => {
         setIndex(zIndex + 1);
     };
+
+    if (!showPopup) {
+        return null;
+    }
   
     return showPopup ? (
         // If grab popup window turn cursor to grabbing and move popup with useDrag
         <div className={`${isGrab ? 'cursor-grabbing' : 'cursor-grab'} aboutPopup`} ref={elmntRef} style={{zIndex}} onClick={handleClick}>
-            <div className="about-Window bg-white bg-opacity-30 backdrop-filter backdrop-blur">
+            <div className="about-Window bg-white bg-opacity-30 backdrop-filter backdrop-blur">   
                 <div className="about-Sidebar">
                     <button className="close-Button" onClick={onClose}>
                         <img 
@@ -94,7 +98,7 @@ const Popup = ({ showPopup, onClose, SidebarData }) => {
                             {SidebarData.map((button, index) => (
                             <li
                                 key={index}
-                                className={`${selectedButton === index ? 'bg-blue-500' : ''} hover:bg-blue-300`}
+                                className={`${selectedButton === index ? 'bg-[#FFC70A]' : ''} hover:bg-[#E7E7E7]`}
                                 onClick={() => {
                                 setContent(button.content);
                                 setSelectedButton(index);
@@ -105,7 +109,12 @@ const Popup = ({ showPopup, onClose, SidebarData }) => {
                             ))}
                         </ul>
                     </div>
-                <div className="sidebar-3">{content}</div>
+                <div className="sidebar-3">
+                    {content}
+                </div>
+            </div>
+            <div className = "sidebar-1">
+                {children}
             </div>
         </div>
     </div>

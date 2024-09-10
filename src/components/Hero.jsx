@@ -43,7 +43,7 @@ const Hero = () => {
           }}
           SidebarData={SidebarData}
         >
-          <p className="sidebar-1">Hello :)</p>
+          <div>Hello :)</div>
         </Popup>
         <button className="workbutton" onClick={handleClick2}>
           <img 
