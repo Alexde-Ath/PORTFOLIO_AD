@@ -67,7 +67,7 @@ function useDrag(showPopup, setIsGrab) {
 
 // Variable Popup has two sidebars in a column and third column shows content
 const Popup = ({ showPopup, onClose, SidebarData }) => {
-    const [selectedButton, setSelectedButton] = useState(null);
+    const [selectedButton, setSelectedButton] = useState(0);
     const [isGrab, setIsGrab] = useState(false);
     const elmntRef = useDrag(showPopup, setIsGrab);
     const [content, setContent] = useState(SidebarData[0].content); //Set initial

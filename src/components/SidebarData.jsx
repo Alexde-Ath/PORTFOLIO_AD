@@ -1,34 +1,36 @@
+import { Portrait, github, linkedin } from '../assets';
 
 const SidebarData = [
     {
         label: "About",
         content: (
-        <div className = "mt-20" style = {{ fontSize: '20px' }}>
+        <div className = "mt-0" style = {{ fontSize: '20px' }}>
+            <img src = {Portrait} className = "about-portrait" alt = "Alexandra de'Ath" />
             <p style = {{fontSize: '25px'}}>I am a senior studying a <strong>B.S in Computer Science</strong> at the <strong>University of Rochester</strong>.</p> 
             <p>Outside of academics, I enjoy playing the flute, soccer, drawing, and have a passion for trying new foods!</p> 
-            <p style = {{color: 'Navy'}}> **If you prefer seeing a list of all tabs, click the burger at the top left :)"</p>
+            <p style = {{color: 'Navy'}}> **NOTE: If you prefer seeing a list of all tabs, click the burger at the top left :)"</p>
         </div>
     )
     },
     {
         label: "Courses",
-        content: "content"
+        content: "Web Programming, Computer Models & Limitations, Computer Organization, Intro to AI, Data Structures & Algorithms, Computation & Formal Systems"
     },
     {
         label: "Languages",
-        content: "content"
+        content: "Java, C, Python, Html/CSS, React, JavaScript, R, SQL"
     },
     {
         label: "Skills",
-        content: "content"
+        content: "Excel(Intermediate)/Microsoft office, Design in CAD (OnShape), MATLAB"
     },
     {
         label: "Leadership",
-        content: "content"
+        content: "Stuff"
     },
     {
         label: "Certifications",
-        content: "content"
+        content: "Linkedin"
     },
 ];
 

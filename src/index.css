@@ -35,13 +35,14 @@ body {
  .aboutbutton, .workbutton {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-  margin-left: 10px;
+  position: relative;
+  left: 20px;
  }
 
  .aboutfolder {
+  position: relative;
   height: 150px;
-  margin-top: 20px;
+  top: 50px;
  }
  
  .aboutfolder:not(.clicked):hover {
@@ -49,7 +50,9 @@ body {
  }
 
  .workfolder {
+  position: relative;
   height: 150px;
+  top: 100px;
  }
 
  .workfolder:not(.clicked):hover {
@@ -132,4 +135,12 @@ body {
   left: 350px;
   top: -200px;
   width: 420px;
+ }
+
+ .about-portrait {
+  position: relative;
+  height: 90px;
+  left: 20px;
+  top: -20px;
+  border-radius: 100px;
  }
