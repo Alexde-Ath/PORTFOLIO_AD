@@ -26,25 +26,27 @@ const Hero = () => {
     <section>
       {/* About Section: Folder buttons, popup with About info */}
       <div>
-        <button className="aboutbutton" onClick={handleClick1}>
-          <img 
-            src={isClicked1 ? aboutopen : aboutfolder} 
-            className={`aboutfolder ${isClicked1 ? 'clicked' : ''}`} 
-            alt="Alexandra de'Ath" 
-          />
-        </button>
-        {/*Popup for About folder*/}
-        <Popup
-          showPopup={showPopup1}
-          content={SidebarData.content}
-          onClose={() => {
-            setPopup1(false);
-            setIsClicked1(false);
-          }}
-          SidebarData={SidebarData}
-        >
-          <div>Hello :)</div>
-        </Popup>
+        <div>
+          <button className="aboutbutton" onClick={handleClick1}>
+            <img 
+              src={isClicked1 ? aboutopen : aboutfolder} 
+              className={`aboutfolder ${isClicked1 ? 'clicked' : ''}`} 
+              alt="Alexandra de'Ath" 
+            />
+          </button>
+          {/*Popup for About folder*/}
+          <Popup
+            showPopup={showPopup1}
+            content={SidebarData.content}
+            onClose={() => {
+              setPopup1(false);
+              setIsClicked1(false);
+            }}
+            SidebarData={SidebarData}
+          >
+            <div >Hello :)</div>
+          </Popup>
+          </div>
         <button className="workbutton" onClick={handleClick2}>
           <img 
             src={isClicked2 ? workopen : workfolder} 

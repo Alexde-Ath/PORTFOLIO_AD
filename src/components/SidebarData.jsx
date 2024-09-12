@@ -23,7 +23,20 @@ const SidebarData = [
     },
     {
         label: "Courses",
-        content: "Web Programming, Computer Models & Limitations, Computer Organization, Intro to AI, Data Structures & Algorithms, Computation & Formal Systems"
+        content: 
+        <div className = "text-10xl">
+            <ul>
+                {"Web Programming: HTTP, JavaScript, CSS, the LAMP stack, XML, JSON, Ajax, WebSockets, and modern MVC frameworks,  Computer Models & Limitations: JAVA,  Computer Organization:,  Intro to AI: Java C LISP,  Data Structures & Algorithms: C Java ,  Computation & Formal Systems: Rust C Java".split(/,(?=\s\s\w)/).map((item, index) => {
+                    const parts = item.split(':');
+                    return <li key = {index}>
+                        <strong>
+                            {parts[0]}
+                        </strong>: {parts[1]}
+                    </li>
+                    })
+                }
+            </ul>
+        </div>
     },
     {
         label: "Languages",
