@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Gemola";
-  src: url("/gemola-font/Gemola-wooyn.ttf");
+  src: url("/foglihten/FoglihtenPCS-068.otf");
 }
 
 * {
@@ -120,6 +120,10 @@ body {
   height: 30px;
  }
 
+ .close-smile:not(.clicked):hover {
+  content: url('../src/assets/closeButton.png');
+ }
+
  .sidebar-1 {
   position: relative;
   font-size: 140px;
@@ -141,9 +145,10 @@ body {
 
  .sidebar-3 {
   position: relative;
-  left: 350px;
-  top: -210px;
-  width: 420px;
+  left: 380px;
+  top: -200px;
+  width: 340px;
+  height: 410px;
  }
 
  .about-portrait {
@@ -165,14 +170,14 @@ body {
  .about-github {
   position: absolute;
   height: 40px;
-  bottom: -60px;
+  bottom: -50px;
   right: 90px;
  }
 
  .about-linkedin {
   position: absolute;
   height: 40px;
-  bottom: -60px;
+  bottom: -50px;
   right: 30px;
  }
  
@@ -180,9 +185,15 @@ body {
   position: absolute;
   width: 478px;
   height: 80px;
-  top: -52px;
+  top: -49px;
   left: -28px;
   border-bottom: 5px solid #FFC70A;
   background-color:#00205B;
   border-top-right-radius: 20px;
+ }
+
+ .languages {
+  position: relative;
+  height: 50px;
+  width: 50px;
  }

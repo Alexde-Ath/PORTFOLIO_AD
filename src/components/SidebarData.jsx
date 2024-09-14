@@ -1,4 +1,4 @@
-import { Portrait, github, linkedin, URLogo } from '../assets';
+import { Portrait, github, linkedin, URLogo, css, html, javascript, reactjs, java,python, cicon, sql, rlogo } from '../assets';
 
 const SidebarData = [
     {
@@ -14,22 +14,22 @@ const SidebarData = [
             <a href="https://linkedin.com/in/alexandra-de-ath333" target="_blank" rel="noopener noreferrer">
                 <img src = {linkedin} className = "about-linkedin" alt = "Alexandra de'Ath" /> 
             </a>
-            <p style = {{fontSize: '25px'}}>I am a senior studying a <strong>B.S in Computer Science</strong> at the <strong>University of Rochester</strong>.</p> 
-            <p style = {{marginBottom: '30px', marginTop: '10px' }}>Outside of academics, I enjoy playing the flute, soccer, drawing, and have a passion for trying new foods!</p>
-            <p style = {{color: 'Navy'}}> **NOTE: Click the burger at the top left for quick view :)</p>
+            <p style = {{fontSize: '25px'}}>I am a senior studying a <strong className="text-[#00205B]">B.S in Computer Science</strong> at the <strong className="text-[#00205B]">University of Rochester.</strong></p> 
+            <p style = {{marginBottom: '30px', marginTop: '10px' }}>My path to CS has been very curvy, from exploring mechanical Engineering to Bussiness, I finally found my way to CS! Choosing to minor in Chinese and cluster in applied economics. Outside of academics, I enjoy playing the flute, soccer, drawing, and have a passion for trying new foods!</p>
+            <p style = {{color: 'Navy'}}> Connect with me! </p>
 
         </div>
     )
     },
     {
-        label: "Courses",
+        label: "CS Courses",
         content: 
-        <div className = "text-10xl">
+        <div className = "text-[15px]">
             <ul>
-                {"Web Programming: HTTP, JavaScript, CSS, the LAMP stack, XML, JSON, Ajax, WebSockets, and modern MVC frameworks,  Computer Models & Limitations: JAVA,  Computer Organization:,  Intro to AI: Java C LISP,  Data Structures & Algorithms: C Java ,  Computation & Formal Systems: Rust C Java".split(/,(?=\s\s\w)/).map((item, index) => {
+                {"Web Programming: HTTP, JavaScript, CSS, the LAMP stack, XML, JSON, Ajax,  Computer Models & Limitations: Finite-state machines and pumping lemmas, CFL, Turing machines,  Computer Organization: C, RISCV, RUST,  Intro to AI: Java C LISP,  Data Structures & Algorithms: Java, C ,  Computation & Formal Systems: C Java".split(/,(?=\s\s\w)/).map((item, index) => {
                     const parts = item.split(':');
                     return <li key = {index}>
-                        <strong>
+                        <strong className = "text-[#00205B] text-[22px]">
                             {parts[0]}
                         </strong>: {parts[1]}
                     </li>
@@ -40,7 +40,17 @@ const SidebarData = [
     },
     {
         label: "Languages",
-        content: "Java, C, Python, Html/CSS, React, JavaScript, R, SQL"
+        content:
+        <div className="grid grid-cols-4 gap-10 gap-y-12">
+            <img src={cicon} className="languages" alt="Alexandra de'Ath" />
+            <img src={java} className="languages" alt="Alexandra de'Ath" />
+            <img src={python} className="languages" alt="Alexandra de'Ath" />
+            <img src={rlogo} className="languages" alt="Alexandra de'Ath" />
+            <img src={sql} className="languages" alt="Alexandra de'Ath" />
+            <img src={javascript} className="languages" alt="Alexandra de'Ath" />
+            <img src={html} className="languages" alt="Alexandra de'Ath" />
+            <img src={css} className="languages" alt="Alexandra de'Ath" />
+        </div>
     },
     {
         label: "Skills",
@@ -58,28 +68,20 @@ const SidebarData = [
 
 const SidebarData2 = [
     {
-        label: "hi",
+        label: "Headstarter",
         content: "hi"
     },
     {
-        label: "Courses",
+        label: "HP Tech",
         content: "content"
     },
     {
-        label: "Languages",
-        content: "content"
+        label: "RBC",
+        content: "Summer Internship"
     },
     {
-        label: "Skills",
-        content: "content"
-    },
-    {
-        label: "Leadership",
-        content: "content"
-    },
-    {
-        label: "Certifications",
-        content: "content"
+        label: "Retail",
+        content: "hi"
     },
 ];
 

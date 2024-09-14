@@ -1,4 +1,4 @@
-import { closeButton } from '../assets';
+import { closeButtonEyes } from '../assets';
 import React, { useState, useEffect, useRef } from 'react';
 
 /* Drag screen function based from https://www.w3schools.com/HOWTO/howto_js_draggable.asp
@@ -89,7 +89,7 @@ const Popup = ({ showPopup, onClose, SidebarData, children }) => {
                 <div className="about-Sidebar">
                     <button className="close-Button" onClick={onClose}>
                         <img 
-                        src={closeButton} 
+                        src={closeButtonEyes} 
                         alt="Alexandra de'Ath" 
                         className="close-smile" />
                     </button>

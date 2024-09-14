@@ -21,6 +21,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cicon from "./tech/cicon.png";
+import sql from "./tech/sql.png";
+import rlogo from "./tech/Rlogo.svg";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
 
 import proj1 from "./proj1.png";
 import aboutfolder from "./Aboutfolder.png";
@@ -29,6 +34,7 @@ import URLogo from "./UR.png";
 import painting from "./Painting.png";
 import mcomp from "./Mcompute.png";
 import closeButton from "./closeButton.png";
+import closeButtonEyes from "./closeButton-eyes.png";
 import aboutNight from "./AboutfolderNight.png";
 import aboutopenNight from "./AboutfolderopenNight.png";
 import workfolder from "./Workfolder.png";
@@ -92,4 +98,10 @@ export {
   workopen,
   workopenNight,
   Portrait,
-};
+  cicon,
+  sql,
+  rlogo,
+  java,
+  python,
+  closeButtonEyes,
+  };
