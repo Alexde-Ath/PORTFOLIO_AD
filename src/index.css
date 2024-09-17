@@ -77,6 +77,7 @@ body {
   height: 500px;
   border-radius: 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.561);
+  overflow: hidden;
 }
 
 /*---------------
@@ -113,10 +114,15 @@ body {
   left: 400px;
  }
 
- .close-smile {
+ .close-Button {
   position: relative;
   top: 10px;
   left: 10px;
+  height: 30px;
+ }
+
+ .close-smile {
+  position: relative;
   height: 30px;
  }
 
@@ -126,10 +132,10 @@ body {
 
  .sidebar-1 {
   position: relative;
-  font-size: 140px;
+  font-size: 120px;
   bottom: 310px;
-  left: -150px;
-  width: 420px;
+  left: -125px;
+  width: 410px;
   height: 160px;
   transform: rotate(-90deg);
   opacity: 20%;
@@ -137,7 +143,7 @@ body {
 
  .sidebar-2 {
   position: relative;
-  left: 180px;
+  left: 175px;
   top: -10px;
   font-size: 25px;
   width: 130px;
@@ -145,17 +151,18 @@ body {
 
  .sidebar-3 {
   position: relative;
-  left: 380px;
-  top: -200px;
-  width: 340px;
-  height: 410px;
+  left: 340px;
+  top: -240px;
+  width: 440px;
+  height: 450px;
+  
  }
 
  .about-portrait {
   position: relative;
   height: 90px;
   left: 20px;
-  top: -20px;
+  top: 8px;
   border-radius: 100px;
   border: 5px solid #FFC70A;
  }
@@ -164,20 +171,20 @@ body {
   position: absolute;
   height: 40px;
   right: 30px;
-  top: -30px;
+  top: -5px;
  }
 
  .about-github {
   position: absolute;
   height: 40px;
-  bottom: -50px;
+  bottom: -20px;
   right: 90px;
  }
 
  .about-linkedin {
   position: absolute;
   height: 40px;
-  bottom: -50px;
+  bottom: -20px;
   right: 30px;
  }
  
@@ -185,8 +192,8 @@ body {
   position: absolute;
   width: 478px;
   height: 80px;
-  top: -49px;
-  left: -28px;
+  top: -22px;
+  left: -18px;
   border-bottom: 5px solid #FFC70A;
   background-color:#00205B;
   border-top-right-radius: 20px;

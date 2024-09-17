@@ -14,6 +14,7 @@ const Navbar = () => {
             alt="Alexandra de'Ath"
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
+            draggable="false"
           />
           {/* Dropdowm menu */}
           <div

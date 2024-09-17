@@ -73,7 +73,7 @@ const Popup = ({ showPopup, onClose, SidebarData, children }) => {
     const [content, setContent] = useState(SidebarData[0].content); //Set initial
     const [zIndex, setIndex] = useState(0);
 
-    // handler for click for popup windows - TODO:Change to if pressed
+    // handler for click for popup windows
     const handleClick = () => {
         setIndex(zIndex + 1);
     };
@@ -81,7 +81,7 @@ const Popup = ({ showPopup, onClose, SidebarData, children }) => {
     if (!showPopup) {
         return null;
     }
-  
+  // TODO: if sm size, make popup top: 10 right: 10
     return showPopup ? (
         // If grab popup window turn cursor to grabbing and move popup with useDrag
         <div className={`${isGrab ? 'cursor-grabbing' : 'cursor-grab'} aboutPopup`} ref={elmntRef} style={{zIndex}} onClick={handleClick}>
@@ -91,7 +91,8 @@ const Popup = ({ showPopup, onClose, SidebarData, children }) => {
                         <img 
                         src={closeButtonEyes} 
                         alt="Alexandra de'Ath" 
-                        className="close-smile" />
+                        className="close-smile"
+                        draggable="false" />
                     </button>
                     <div className="sidebar-2">
                         <ul>

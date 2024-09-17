@@ -32,6 +32,7 @@ const Hero = () => {
               src={isClicked1 ? aboutopen : aboutfolder} 
               className={`aboutfolder ${isClicked1 ? 'clicked' : ''}`} 
               alt="Alexandra de'Ath" 
+              draggable="false"
             />
           </button>
           {/*Popup for About folder*/}
@@ -52,6 +53,7 @@ const Hero = () => {
             src={isClicked2 ? workopen : workfolder} 
             className={`workfolder ${isClicked2 ? 'clicked' : ''}`} 
             alt="Alexandra de'Ath" 
+            draggable="false"
           />
         </button>
         <Popup
