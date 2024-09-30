@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <section>
       <nav
-        className={`w-full flex items-center px-1 py-1 fixed top-0 bg-dpink bg-opacity-5 backdrop-filter backdrop-blur fixed`}>
+        className={`w-full flex items-center px-1 py-1 top-0 bg-dpink bg-opacity-5 backdrop-filter backdrop-blur fixed`}>
         <div className='flex flex-1 justify-start items-center'>
           <img
             src={toggle ? close : menu}
@@ -26,9 +26,10 @@ const Navbar = () => {
         </div>
         {/* Widget symbols - idk */}
       </nav>
-      <nav>
-        <button></button>
+      <nav className = "w-[90%] mx-16 h-20 flex items-center px-5 oy-0 bottom-0 bg-dpink bg-opacity-5 backdrop-filter backdrop-blur fixed rounded-xl">
+        <button>App</button>
       </nav>
+
     </section>
   );
 };

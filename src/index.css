@@ -16,7 +16,7 @@
 }
 
 body {
-  background-image: url('/background.png');
+  background-color: #4ba4cb;
   background-position: center;
   background-size: 100% 100%;
   height: 100vh;
@@ -26,8 +26,22 @@ body {
   -ms-user-select: none;      /* IE/Edge */
   user-select: none;          /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
+
+/*---------------
+ * Hero 
+ *--------------*/
+
+ .desk {
+  position: relative;
+  height: 30px;
+  width: 100px;
+  background-color: brown;
+ }
+ 
+
+
 /*--------------
- * Hero - Folders
+ * Computer - Folders
  *--------------*/
 
  .aboutbutton, .workbutton {
@@ -81,7 +95,7 @@ body {
 }
 
 /*---------------
- * About - window
+ * Computer - About window
  *---------------*/
  
  .about-Sidebar {

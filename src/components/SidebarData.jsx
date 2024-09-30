@@ -14,10 +14,10 @@ const SidebarData = [
             <a href="https://linkedin.com/in/alexandra-de-ath333" target="_blank" rel="noopener noreferrer">
                 <img src = {linkedin} className = "about-linkedin" alt = "Alexandra de'Ath" draggable="false"/> 
             </a>
-            <p style = {{fontSize: '25px'}}>I am a senior studying a <strong className="text-[#00205B]">B.S in Computer Science</strong> at the <strong className="text-[#00205B]">University of Rochester.</strong></p> 
-            <p style = {{ marginTop: '10px' }}>My path to CS has been very curvy, from exploring mechanical Engineering to Bussiness, I finally found my way to CS!</p>
-            <p>I eventually chose to minor in Chinese and cluster in applied economics. Outside of academics, I enjoy playing the flute, soccer, drawing, and have a passion for trying new foods!</p>
-            <p style = {{color: 'Navy'}} className = "ml-30"> Connect with me! </p>
+            <p className = "text-2xl my-2">I am a senior studying a <strong className="text-[#00205B]">B.S in Computer Science</strong> at the <strong className="text-[#00205B]">University of Rochester.</strong></p> 
+            <p className = "text-1xl">My path to CS has been very curvy, from exploring mechanical Engineering to Bussiness, I finally found my way to CS!</p>
+            <p>I eventually chose to minor in Chinese and focus on applied economics. Outside of academics, I enjoy playing the flute, soccer, drawing, and have a passion for trying new foods!</p>
+            <p className = "ml-30 text-navy"> Connect with me! </p>
 
         </div>
     )
@@ -73,16 +73,12 @@ const SidebarData2 = [
         content: "hi"
     },
     {
-        label: "HP Tech",
-        content: "content"
-    },
-    {
         label: "RBC",
         content: "Summer Internship"
     },
     {
         label: "Retail",
-        content: "hi"
+        content: "JCrew, Ann Taylor"
     },
 ];
 
