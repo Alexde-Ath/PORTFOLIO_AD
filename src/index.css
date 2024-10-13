@@ -12,11 +12,10 @@
   box-sizing: border-box;
   font-family: 'Gemola', fallback, sans-serif;
   scroll-behavior: smooth;
-  color-scheme: #f0eee9;
 }
 
 body {
-  background-color: #4ba4cb;
+  background-color: #d4b992;
   background-position: center;
   background-size: 100% 100%;
   height: 100vh;
@@ -28,17 +27,128 @@ body {
 }
 
 /*---------------
- * Hero 
+ * Hero - desk
  *--------------*/
+ .wall {
+  position: fixed;
+  height: 100%;
+  left: 0px;
+  width: 100%;
+  background: linear-gradient(to right, #9b866a 60%, #8e7b61 60%, #8e7b6144 65%, transparent 68%)
+ }
+
+ .wall::before {
+  content: '';
+  position: fixed;
+  width: 60%;
+  height: 100%;
+  opacity: 10%;
+  background: url('src/assets/wallbg.jpg');
+ }
+
+ .wall::after {
+  content: '';
+  right: 0px;
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  opacity: 10%;
+  background: url('src/assets/wallbg.jpg');
+ }
 
  .desk {
-  position: relative;
-  height: 30px;
-  width: 100px;
-  background-color: brown;
- }
- 
+  position: fixed;
+  height: 25%;
+  width: 100%;
+  bottom: 0;
+  background-color: #2a1a10;
+  clip-path: polygon(10% 100%, 60% 0%, 200% 100%);
+}
 
+.scratches {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: .7;
+  overflow: hidden;
+}
+
+.scratches::before {
+  content: '';
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  width: 95%;
+  height: 100%;
+  background: url('./assets/desk.jpg') repeat;
+  background-size: cover;
+  transform: rotate(5deg);
+  transform-origin: center;
+  filter: invert(1) opacity(0.3);
+}
+
+.scratches::after {
+  content: '';
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  width: 95%;
+  height: 100%;
+  background: url('./assets/desk3.jpg') repeat;
+  background-size: cover;
+  transform: rotate(5deg);
+  transform-origin: center;
+  filter: opacity(0.1);
+}
+
+/* Coffee & mug */
+.cup {
+  position: fixed;
+}
+
+.lamp {
+  position: fixed;
+}
+
+.soccerball {
+  position:fixed;
+}
+
+.plant {
+  position: fixed;
+}
+
+.duck {
+  position: fixed;
+}
+
+.plane {
+  position: fixed;
+}
+
+.computer {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  width: 70%;
+  height: 70%;
+  background: url("./assets/computer.png") no-repeat bottom right;
+  background-size: contain;
+}
+
+.keyboard {
+  position: fixed;
+}
+
+.window {
+  position: fixed;
+  height: 90%;
+  width: 50%;
+  top: 0px;
+  left: 10px;
+  background-color: #ebe6da;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%)
+}
 
 /*--------------
  * Computer - Folders

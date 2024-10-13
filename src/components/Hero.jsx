@@ -9,7 +9,14 @@ import Popup from './Popup';
 const Hero = () => {
   return (
     <section>
-      <div className ="desk">
+      <div className = "wall"></div>
+      <div className = "window"></div>
+      <div className = "desk">
+        <div className = "scratches"></div>
+      </div>
+      <div className = "cup">
+      </div>
+      <div className="computer">
       </div>
     </section>
   )
