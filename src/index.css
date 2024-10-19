@@ -43,7 +43,7 @@ body {
   width: 60%;
   height: 100%;
   opacity: 10%;
-  background: url('src/assets/wallbg.jpg');
+  background: url('./assets/wallbg.jpg');
  }
 
  .wall::after {
@@ -81,7 +81,7 @@ body {
   width: 95%;
   height: 100%;
   background: url('./assets/desk.jpg') repeat;
-  background-size: cover;
+  background-size: 90% 30%;
   transform: rotate(5deg);
   transform-origin: center;
   filter: invert(1) opacity(0.3);
@@ -126,14 +126,26 @@ body {
   position: fixed;
 }
 
+
 .computer {
-  position: fixed;
+  position: absolute;
   bottom: 0%;
   right: 0%;
-  width: 70%;
-  height: 70%;
   background: url("./assets/computer.png") no-repeat bottom right;
   background-size: contain;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.cscreen {
+  position: fixed;
+  bottom: 10%;
+  left: 30%;
+  width: 100%;
+  height: auto;
+  background: url("./background.png") no-repeat bottom right;
+  background-size: cover;
+  background-position: center;
 }
 
 .keyboard {

@@ -1,4 +1,4 @@
-import { aboutfolder, aboutopen, workfolder, workopen } from '../assets';
+import { computer, aboutfolder, aboutopen, workfolder, workopen } from '../assets';
 import React, { useState } from 'react';
 import { SidebarData, SidebarData2 } from './SidebarData.jsx';
 import Popup from './Popup';
@@ -16,8 +16,11 @@ const Hero = () => {
       </div>
       <div className = "cup">
       </div>
-      <div className="computer">
-      </div>
+      <img 
+      src = {computer} 
+      className = "computer"
+      alt = "Alexandra de'Ath"/>
+        <div className = "cscreen"></div>
     </section>
   )
 }

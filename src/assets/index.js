@@ -42,6 +42,7 @@ import workNight from "./Worknight.png";
 import workopen from "./Workfolderopen.png";
 import workopenNight from "./WorkfolderopenNight.png";
 import Portrait from "./Photo.jpeg";
+import computer from "./computer.png";
 
 import RBC from "./company/RBC.png";
 import meta from "./company/meta.png";
@@ -104,4 +105,5 @@ export {
   java,
   python,
   closeButtonEyes,
+  computer,
   };
